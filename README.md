@@ -9,8 +9,8 @@ Recommended for use with user-specified custom stylesheets. Probably best to mod
 
 Install
 -------
-Download [](readingmode.crx) and drop it into Chrome.
+Download [readingmode.crx](https://github.com/srpeck/readingmode/blob/master/readingmode.crx?raw=true) and drop it into Chrome.
 
 Modify
 ------
-Download [source files as zip](https://github.com/srpeck/readingmode/zipball/master), go to [](chrome://extensions), enable Developer mode, and Load unpacked extension.
+Download [source files as zip](https://github.com/srpeck/readingmode/zipball/master), go to [chrome://extensions](chrome://extensions), enable Developer mode, and Load unpacked extension.
