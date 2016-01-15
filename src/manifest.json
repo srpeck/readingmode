@@ -1,0 +1,21 @@
+{
+    "name":"Reading Mode",
+    "version":"1.0",
+    "homepage_url":"https://github.com/srpeck/readingmode",
+    "description":"main_frame only reading mode",
+    "browser_action":{
+        "default_icon":"icon.png",
+        "default_title":"Toggle reading mode"
+    },
+    "permissions":["activeTab","webRequest","webRequestBlocking","<all_urls>"],
+    "background":{
+        "scripts":["background.js"]
+    },
+    "commands":{
+        "toggle-reading":{
+            "suggested_key":{"default":"Alt+Shift+R","mac":"Command+Shift+R"},
+            "description":"Toggle reading mode"
+        }
+    },
+    "manifest_version":2
+}
